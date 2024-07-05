@@ -1,8 +1,10 @@
-import { createApp } from 'vue';
-import App from './App.vue';
+import { createApp } from "vue";
+import App from "./App.vue";
+import "./index.css";
+import { FontAwesomeIcon } from "./fontawesome";
 
-createApp(App).mount('#app');
+const app = createApp(App);
 
-import './index.css';
+app.component("font-awesome-icon", FontAwesomeIcon);
 
-console.log('👋 This message is being logged by "renderer.js", included via Vite');
+app.mount("#app");

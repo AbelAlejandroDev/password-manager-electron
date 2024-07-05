@@ -22,7 +22,10 @@
     "@electron-forge/plugin-vite": "^7.4.0",
     "@electron/fuses": "^1.8.0",
     "@vitejs/plugin-vue": "^5.0.5",
+    "autoprefixer": "^10.4.19",
     "electron": "31.1.0",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4",
     "vite": "^5.0.12"
   },
   "keywords": [],
@@ -32,6 +35,11 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
     "electron-squirrel-startup": "^1.0.1",
     "vue": "^3.4.31"
   }
